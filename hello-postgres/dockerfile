@@ -1,0 +1,6 @@
+FROM postgres:latest
+LABEL  maintainer="robson" SGBD="Postgres"
+ENV CONTAINER_USER="robson"
+RUN adduser $CONTAINER_USER --disabled-password
+CMD ["postgres"]
+

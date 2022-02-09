@@ -1,0 +1,6 @@
+FROM mysql:latest
+LABEL  maintainer="robson" SGBD="MySQL"
+ENV CONTAINER_USER="robson"
+RUN adduser $CONTAINER_USER --disabled-password
+CMD ["mysqld"]
+
