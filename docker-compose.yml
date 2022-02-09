@@ -8,10 +8,10 @@ services:
     #command: --default-authentification-plugin=mysql_native_password
     restart: always
     environment:
-       #MYSQL_USER: robson
       MYSQL_ROOT_PASSWORD: post
-      #MYSQL_PASSWORD: post
-      #MYSQL_DATABASE: projetdb
+      # MYSQL_USER: robson
+      # MYSQL_PASSWORD: post
+      # MYSQL_DATABASE: projetdb
     volumes:
       - mysql-data:/var/lib/mysql
     ports:
@@ -21,13 +21,15 @@ services:
      #container_name: phpmyadmin
      image: phpmyadmin/phpmyadmin:latest
      environment:
-      #MYSQL_ROOT_PASSWORD: post
-      PMA_HOST: mysql
-      PMA_USER: root
-      PMA_PASSWORD: secret
+       PMA_HOST: mysql
+       PMA_USER: root
+       PMA_PASSWORD: post
+       # MYSQL_ROOT_PASSWORD: post
      ports:
       - "8080:80"
 
 volumes:
   mysql-data:
 
+# depends_on
+# https://docs.docker.com/compose/startup-order/
