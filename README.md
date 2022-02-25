@@ -32,7 +32,7 @@ Here you have all the presentation of this project as images:
 
 ![image](https://user-images.githubusercontent.com/71143254/155786478-3609ab38-5081-486e-954e-103dce69764a.png)
 
-![image](https://user-images.githubusercontent.com/71143254/155786499-27723b3a-259d-474f-919a-4500028ea2a7.png)
+![image](https://user-images.githubusercontent.com/71143254/155789122-96d216c6-6d8f-4af7-af20-2639f31dfc9f.png)
 
 ![image](https://user-images.githubusercontent.com/71143254/155786512-4770e099-9fe3-4e21-9c47-e7c5c8bb23b3.png)
 
