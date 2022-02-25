@@ -37,6 +37,17 @@ Here you have all the presentation of this project as images:
 ![image](https://user-images.githubusercontent.com/71143254/155786512-4770e099-9fe3-4e21-9c47-e7c5c8bb23b3.png)
 
 
+Here you have the address to the Database' interfaces used in this work:
+
+http://20.188.59.6:8080/
+http://20.188.59.6:5050/
+
+Also, the address to the Docker images used:
+
+https://hub.docker.com/_/mysql
+https://hub.docker.com/_/postgres
+https://hub.docker.com/r/phpmyadmin/phpmyadmin
+https://hub.docker.com/r/dpage/pgadmin4
 
 
 
